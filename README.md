@@ -1,4 +1,9 @@
+## ProductInsightBot
 ProductInsightBot is an intelligent AI agent designed to analyze and provide insights about watch products. 
+
+## **Demo** - https://product-insight-bot.vercel.app/
+https://github.com/user-attachments/assets/8e071a75-c3ae-47c8-a42b-98f70a0ab690
+
 
 ## **Features**
 - **Web Scraping**: Automated data collection from e-commerce websites
