@@ -70,13 +70,7 @@ python product_insight_bot.py
 **-> Covers popular brands like Titan, Casio, Apple, Samsung, etc.**
 
 ### **Categories Covered**
-Category	Description	Popular Brands
-Smartwatch	Fitness trackers, smart features	Apple, Samsung, Noise, Boat
-Luxury	Premium, high-end watches	Titan, Fossil, Casio, Timex
-Sports	Fitness and outdoor watches	Casio, G-Shock, Fastrack
-Fashion	Style-focused, designer watches	Sonata, Maxima, Esprit
-Digital	LED displays, digital features	Casio, Timex, Fastrack
-Analog	Traditional watch designs	Titan, HMT, Timex
+<img width="810" height="425" alt="image" src="https://github.com/user-attachments/assets/6f90da4e-f385-41b8-9df3-fed125ca7288" />
 
 ### **Technical Implementation**
 ## _Data Collection_ _**(data_collector.py)**_
