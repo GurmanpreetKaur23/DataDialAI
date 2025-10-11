@@ -33,11 +33,11 @@ class ProductInsightBot:
         if question in ['quit', 'exit', 'bye']:
             return "Thank you for using ProductInsightBot!"
 
-        # keyword detection
+        # Enhanced keyword detection with context
         if 'most expensive' in question:
-            return self.find_most_expensive()
+            return self.find_most_expensive(question)
         if 'cheapest' in question or 'least expensive' in question:
-            return self.find_cheapest()
+            return self.find_cheapest(question)
         if 'rating above' in question or 'rating over' in question:
             return self.filter_by_rating(question)
         if any(x in question for x in ['under', 'below', 'less than']):
@@ -45,9 +45,9 @@ class ProductInsightBot:
         if 'average price' in question:
             return self.calculate_average_price(question)
         if 'most reviews' in question:
-            return self.find_most_reviews()
+            return self.find_most_reviews(question)
         if 'price range' in question:
-            return self.show_price_range()
+            return self.show_price_range(question)
         if any(word in question for word in ['categories', 'types']):
             return self.show_categories()
 
@@ -56,19 +56,107 @@ class ProductInsightBot:
         if any(brand in question for brand in ['titan', 'casio', 'fastrack', 'sonata', 'fossil', 'samsung', 'apple', 'noise']):
             return self.brand_analysis(question)
 
-        
         return "I'm not sure I understand. Try asking about smartwatches, luxury watches, prices, or ratings or type 'help' for examples."
 
-    # price analysis
-    def find_most_expensive(self):
-        # most expensive
-        product = self.df.loc[self.df['price'].idxmax()]
-        return f"Most Expensive: {product['product_name']} - ₹{product['price']:,} (Rating: {product['rating']})"
+    # FIXED: Enhanced price analysis with filtering
+    def find_most_expensive(self, question):
+        # Start with all data
+        filtered_df = self.df
+        
+        # Check for category in question
+        categories = {
+            'smartwatch': 'Smartwatch',
+            'luxury': 'Luxury', 
+            'sports': 'Sports',
+            'fashion': 'Fashion',
+            'digital': 'Digital',
+            'analog': 'Analog'
+        }
+        
+        # Check for brand in question
+        brands = ['titan', 'casio', 'fastrack', 'sonata', 'fossil', 'samsung', 'apple', 'noise']
+        
+        # Apply category filter if mentioned
+        category_used = None
+        for key, category in categories.items():
+            if key in question:
+                filtered_df = filtered_df[filtered_df['category'] == category]
+                category_used = category
+                break
+        
+        # Apply brand filter if mentioned
+        brand_used = None
+        for brand in brands:
+            if brand in question:
+                filtered_df = filtered_df[filtered_df['brand'].str.lower().str.contains(brand)]
+                brand_used = brand.title()
+                break
+        
+        if filtered_df.empty:
+            return "❌ No products found matching your criteria."
+        
+        # Find most expensive in filtered data
+        max_price_idx = filtered_df['price'].idxmax()
+        product = filtered_df.loc[max_price_idx]
+        
+        # Generate context-aware response
+        context = ""
+        if category_used:
+            context = f" {category_used.lower()}"
+        if brand_used:
+            context = f" {brand_used}"
+        if category_used and brand_used:
+            context = f" {brand_used} {category_used.lower()}"
+        
+        return f"💰 Most Expensive{context} Watch: {product['product_name']} - ₹{product['price']:,} (Rating: {product['rating']}⭐)"
 
-    def find_cheapest(self):
-        # cheapest
-        product = self.df.loc[self.df['price'].idxmin()]
-        return f"Cheapest: {product['product_name']} - ₹{product['price']:,} (Rating: {product['rating']})"
+    def find_cheapest(self, question):
+        # Similar logic to find_most_expensive but for cheapest
+        filtered_df = self.df
+        
+        categories = {
+            'smartwatch': 'Smartwatch',
+            'luxury': 'Luxury', 
+            'sports': 'Sports',
+            'fashion': 'Fashion',
+            'digital': 'Digital',
+            'analog': 'Analog'
+        }
+        
+        brands = ['titan', 'casio', 'fastrack', 'sonata', 'fossil', 'samsung', 'apple', 'noise']
+        
+        # Apply category filter if mentioned
+        category_used = None
+        for key, category in categories.items():
+            if key in question:
+                filtered_df = filtered_df[filtered_df['category'] == category]
+                category_used = category
+                break
+        
+        # Apply brand filter if mentioned
+        brand_used = None
+        for brand in brands:
+            if brand in question:
+                filtered_df = filtered_df[filtered_df['brand'].str.lower().str.contains(brand)]
+                brand_used = brand.title()
+                break
+        
+        if filtered_df.empty:
+            return "❌ No products found matching your criteria."
+        
+        min_price_idx = filtered_df['price'].idxmin()
+        product = filtered_df.loc[min_price_idx]
+        
+        # Generate context-aware response
+        context = ""
+        if category_used:
+            context = f" {category_used.lower()}"
+        if brand_used:
+            context = f" {brand_used}"
+        if category_used and brand_used:
+            context = f" {brand_used} {category_used.lower()}"
+        
+        return f"💸 Cheapest{context} Watch: {product['product_name']} - ₹{product['price']:,} (Rating: {product['rating']}⭐)"
 
     def filter_by_max_price(self, question):
         # specified price
@@ -106,10 +194,53 @@ class ProductInsightBot:
         ])
         return f"Watches with rating above {threshold}:\n{results}"
 
-    def find_most_reviews(self):
-        """Find the watch with the most reviews."""
-        product = self.df.loc[self.df['reviews'].idxmax()]
-        return f"Most Reviews: {product['product_name']} - {product['reviews']:,} reviews (Rating: {product['rating']})"
+    def find_most_reviews(self, question):
+        """Find the product with the most reviews with context."""
+        filtered_df = self.df
+        
+        categories = {
+            'smartwatch': 'Smartwatch',
+            'luxury': 'Luxury', 
+            'sports': 'Sports',
+            'fashion': 'Fashion',
+            'digital': 'Digital',
+            'analog': 'Analog'
+        }
+        
+        brands = ['titan', 'casio', 'fastrack', 'sonata', 'fossil', 'samsung', 'apple', 'noise']
+        
+        # Apply category filter if mentioned
+        category_used = None
+        for key, category in categories.items():
+            if key in question:
+                filtered_df = filtered_df[filtered_df['category'] == category]
+                category_used = category
+                break
+        
+        # Apply brand filter if mentioned
+        brand_used = None
+        for brand in brands:
+            if brand in question:
+                filtered_df = filtered_df[filtered_df['brand'].str.lower().str.contains(brand)]
+                brand_used = brand.title()
+                break
+        
+        if filtered_df.empty:
+            return "❌ No products found matching your criteria."
+        
+        max_reviews_idx = filtered_df['reviews'].idxmax()
+        product = filtered_df.loc[max_reviews_idx]
+        
+        # Generate context-aware response
+        context = ""
+        if category_used:
+            context = f" {category_used.lower()}"
+        if brand_used:
+            context = f" {brand_used}"
+        if category_used and brand_used:
+            context = f" {brand_used} {category_used.lower()}"
+        
+        return f"📝 Most Reviews{context}: {product['product_name']} - {product['reviews']:,} reviews (Rating: {product['rating']}⭐)"
 
     # category and brand analysis
     def calculate_average_price(self, question):
@@ -166,9 +297,52 @@ class ProductInsightBot:
         return "\n".join(results) if results else "Try: Titan, Casio, Fastrack, Sonata, Fossil, Samsung, Apple, or Noise."
 
 
-    def show_price_range(self):
-        # overall price range
-        return f"Price Range: ₹{self.df['price'].min():,} - ₹{self.df['price'].max():,}"
+    def show_price_range(self, question):
+        """Show price range with optional filtering"""
+        filtered_df = self.df
+        
+        categories = {
+            'smartwatch': 'Smartwatch',
+            'luxury': 'Luxury', 
+            'sports': 'Sports',
+            'fashion': 'Fashion',
+            'digital': 'Digital',
+            'analog': 'Analog'
+        }
+        
+        brands = ['titan', 'casio', 'fastrack', 'sonata', 'fossil', 'samsung', 'apple', 'noise']
+        
+        # Apply category filter if mentioned
+        category_used = None
+        for key, category in categories.items():
+            if key in question:
+                filtered_df = filtered_df[filtered_df['category'] == category]
+                category_used = category
+                break
+        
+        # Apply brand filter if mentioned
+        brand_used = None
+        for brand in brands:
+            if brand in question:
+                filtered_df = filtered_df[filtered_df['brand'].str.lower().str.contains(brand)]
+                brand_used = brand.title()
+                break
+        
+        if filtered_df.empty:
+            return "❌ No products found matching your criteria."
+        
+        min_price = filtered_df['price'].min()
+        max_price = filtered_df['price'].max()
+        
+        context = ""
+        if category_used:
+            context = f" for {category_used.lower()} watches"
+        if brand_used:
+            context = f" for {brand_used} watches"
+        if category_used and brand_used:
+            context = f" for {brand_used} {category_used.lower()} watches"
+        
+        return f"📈 Price Range{context}: ₹{min_price:,} - ₹{max_price:,}"
 
     def show_categories(self):
         # counts and averages

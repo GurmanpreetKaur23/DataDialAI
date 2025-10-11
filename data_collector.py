@@ -17,7 +17,9 @@ class ProductDataCollector:
         base_urls = [
             "https://www.amazon.in/s?k=watches&i=watches&ref=nb_sb_noss",
             "https://www.amazon.in/s?k=smart+watches&i=watches&ref=nb_sb_noss",
-            "https://www.amazon.in/s?k=luxury+watches&i=watches&ref=nb_sb_noss"
+            "https://www.amazon.in/s?k=luxury+watches&i=watches&ref=nb_sb_noss",
+            "https://www.amazon.in/b?node=207171479031&ref_=AF_WIN_bub_w_cml_t_1&pf_rd_r=Q1NBEMWMAV4ARAY4FTTV&pf_rd_p=95c202ee-0e23-4ae7-b9c1-bde187ea867c&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=merchandised-search-2&pf_rd_t=&pf_rd_i=1350387031","https://www.amazon.in/s?k=premium+watches&i=watches&crid=7GBNPE8H3ZMX&sprefix=premiumwatches%2Cwatches%2C203&ref=nb_sb_noss_2",
+            "https://www.amazon.in/s?k=apple+watches"
         ]
         
         for url in base_urls:

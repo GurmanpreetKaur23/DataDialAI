@@ -1,201 +1,201 @@
 product_id,product_name,brand,category,price,rating,reviews
-1,Sonata Fashion Watch 460,Sonata,Fashion,10234,4.0,7895
-2,Casio Vintage Series 733,Casio,Analog,13208,4.1,2222
-3,Esprit Designer Watch 995,Esprit,Fashion,8140,3.8,3830
-4,Samsung GPS Watch 731,Samsung,Smartwatch,4869,4.3,3450
-5,Sonata Trendy Edition 717,Sonata,Fashion,3257,4.8,8195
-6,Fastrack Chronograph 598,Fastrack,Luxury,26889,4.3,8233
-7,Titan Dress Watch 962,Titan,Luxury,31489,4.6,9286
-8,Casio Fitness Tracker 672,Casio,Sports,2851,3.8,5795
-9,Casio LED Display 157,Casio,Digital,5792,4.3,5841
-10,Casio Digital Watch 295,Casio,Digital,4187,4.5,5791
-11,Samsung Fitness Tracker 758,Samsung,Smartwatch,36823,4.1,2647
-12,Swiss Military Fashion Watch 313,Swiss Military,Fashion,3333,4.5,1868
-13,Sonata Calculator Watch 528,Sonata,Digital,3279,4.8,483
-14,G-Shock Sports Watch 270,G-Shock,Sports,2821,3.9,5515
-15,Titan Fitness Tracker 847,Titan,Sports,7357,4.0,4645
-16,Sonata Trendy Edition 570,Sonata,Fashion,9787,4.1,1868
-17,Esprit Trendy Edition 45,Esprit,Fashion,4650,4.5,5831
-18,Fastrack Automatic 590,Fastrack,Luxury,24515,4.7,4692
-19,Esprit Trendy Edition 930,Esprit,Fashion,11139,4.7,6320
-20,Garmin Health Monitor 17,Garmin,Smartwatch,30117,4.6,7198
-21,Garmin Smart Watch 466,Garmin,Smartwatch,11024,3.8,5425
-22,Timex LED Display 991,Timex,Digital,6065,4.3,6839
-23,Casio Digital Watch 758,Casio,Sports,1215,4.4,7935
-24,Noise Health Monitor 454,Noise,Smartwatch,18084,4.0,519
-25,Esprit Fashion Watch 610,Esprit,Fashion,2198,4.6,457
-26,Timex Classic Dial 403,Timex,Analog,1399,4.7,9618
-27,Titan Classic Dial 861,Titan,Analog,12820,3.8,7638
-28,Garmin Health Monitor 661,Garmin,Smartwatch,42154,4.1,1654
-29,Casio Digital Watch 687,Casio,Sports,11850,4.0,7110
-30,Titan Analog Watch 548,Titan,Analog,18147,4.8,1907
-31,G-Shock Digital Watch 154,G-Shock,Sports,5899,4.7,772
-32,Sonata Trendy Edition 390,Sonata,Fashion,4030,4.7,9271
-33,Fastrack Digital Watch 589,Fastrack,Sports,11651,3.9,1853
-34,Garmin GPS Watch 675,Garmin,Smartwatch,22460,4.5,7895
-35,Casio Digital Watch 879,Casio,Sports,12884,4.8,4922
-36,Sonata Fashion Watch 862,Sonata,Fashion,9552,3.9,980
-37,Maxima Trendy Edition 861,Maxima,Fashion,1735,4.0,1282
-38,Timex Digital Watch 811,Timex,Digital,5405,3.9,1696
-39,Timex LED Display 579,Timex,Digital,6359,4.1,2080
-40,Titan Vintage Series 363,Titan,Analog,7486,4.8,5292
-41,Maxima Fashion Watch 385,Maxima,Fashion,3401,4.2,1554
-42,Casio Analog Watch 853,Casio,Analog,18749,4.8,5582
-43,Fastrack Chronograph 715,Fastrack,Luxury,5287,4.0,944
-44,Casio LED Display 593,Casio,Digital,5209,4.4,7946
-45,Esprit Fashion Watch 427,Esprit,Fashion,7622,4.4,704
-46,Casio Analog Watch 46,Casio,Analog,13910,3.8,3139
-47,Samsung Health Monitor 852,Samsung,Smartwatch,30333,3.9,5960
-48,Esprit Designer Watch 44,Esprit,Fashion,5091,4.3,4244
-49,Casio Chronograph 39,Casio,Luxury,24857,4.7,5626
-50,Apple GPS Watch 947,Apple,Smartwatch,26530,4.0,6446
-51,Samsung Smart Watch 660,Samsung,Smartwatch,34319,4.7,6931
-52,Samsung Health Monitor 226,Samsung,Smartwatch,27157,4.3,6870
-53,Apple Health Monitor 12,Apple,Smartwatch,21518,4.5,3643
-54,Titan Sports Watch 209,Titan,Sports,6684,4.5,1946
-55,Fastrack LED Display 427,Fastrack,Digital,2386,4.4,1121
-56,Fitbit Fitness Tracker 218,Fitbit,Smartwatch,27393,4.5,4039
-57,Fastrack Calculator Watch 548,Fastrack,Digital,644,4.4,4680
-58,Casio LED Display 463,Casio,Digital,2261,4.0,1479
-59,G-Shock Sports Watch 833,G-Shock,Sports,12325,4.4,4349
-60,Casio Vintage Series 346,Casio,Analog,6256,4.0,104
-61,Casio Digital Watch 869,Casio,Digital,3460,3.8,8644
-62,Maxima Trendy Edition 593,Maxima,Fashion,1580,3.9,2245
-63,Fitbit Fitness Tracker 453,Fitbit,Smartwatch,39317,4.1,2246
-64,Casio Sports Watch 263,Casio,Sports,11167,4.4,8183
-65,Fastrack LED Display 429,Fastrack,Digital,3189,4.5,3582
-66,Esprit Trendy Edition 325,Esprit,Fashion,9802,4.8,4569
-67,Fossil Chronograph 166,Fossil,Luxury,12111,4.5,4518
-68,Casio Digital Watch 895,Casio,Sports,2437,4.3,2278
-69,Timex Automatic 452,Timex,Luxury,27470,4.5,7894
-70,Noise Fitness Tracker 17,Noise,Smartwatch,40713,4.0,2723
-71,Fastrack Calculator Watch 364,Fastrack,Digital,5028,3.9,2208
-72,Titan Classic Dial 963,Titan,Analog,4978,4.4,8657
-73,Swiss Military Fashion Watch 559,Swiss Military,Fashion,5290,4.7,4091
-74,Fastrack Digital Watch 947,Fastrack,Digital,5560,4.7,9229
-75,Swiss Military Fashion Watch 805,Swiss Military,Fashion,1770,4.1,4970
-76,Timex Calculator Watch 324,Timex,Digital,3939,4.4,4530
-77,Sonata Designer Watch 465,Sonata,Fashion,9676,4.3,3574
-78,Boat GPS Watch 448,Boat,Smartwatch,11349,4.1,8699
-79,Casio Digital Watch 403,Casio,Sports,6608,4.2,2325
-80,Timex Digital Watch 642,Timex,Digital,2613,4.5,2224
-81,Timex Chronograph 874,Timex,Luxury,6219,4.6,5881
-82,Timex Sports Watch 352,Timex,Sports,10779,4.4,1795
-83,Casio Fitness Tracker 797,Casio,Sports,14335,4.4,3906
-84,Garmin GPS Watch 616,Garmin,Smartwatch,36518,4.5,7845
-85,Fastrack Fitness Tracker 352,Fastrack,Sports,5699,4.7,2628
-86,Sonata Fashion Watch 417,Sonata,Fashion,10604,4.2,574
-87,Casio Digital Watch 763,Casio,Sports,7282,4.7,7840
-88,Casio Analog Watch 566,Casio,Analog,10616,3.9,1755
-89,Boat Smart Watch 631,Boat,Smartwatch,44644,3.8,710
-90,Titan Sports Watch 204,Titan,Sports,10146,3.9,321
-91,HMT Classic Dial 488,HMT,Analog,13755,4.6,1175
-92,Titan Analog Watch 525,Titan,Analog,3575,4.5,855
-93,Apple Smart Watch 579,Apple,Smartwatch,17855,3.8,246
-94,HMT Classic Dial 526,HMT,Analog,2657,4.5,4669
-95,Titan Vintage Series 267,Titan,Analog,21073,4.2,7482
-96,Timex Chronograph 814,Timex,Luxury,24129,4.0,8279
-97,HMT Vintage Series 302,HMT,Analog,15917,4.4,2713
-98,Timex Analog Watch 117,Timex,Analog,13064,4.2,2615
-99,Fitbit Health Monitor 907,Fitbit,Smartwatch,20310,4.2,3291
-100,Fastrack Fitness Tracker 24,Fastrack,Sports,7678,4.4,8281
-101,Casio LED Display 364,Casio,Digital,5706,4.0,9699
-102,HMT Vintage Series 380,HMT,Analog,10280,4.6,692
-103,Sonata Fashion Watch 712,Sonata,Fashion,1200,4.2,4485
-104,Timex Digital Watch 936,Timex,Sports,12794,4.5,6361
-105,Timex Quartz 472,Timex,Luxury,27735,4.2,9303
-106,Fitbit Fitness Tracker 419,Fitbit,Smartwatch,25322,4.0,9947
-107,Garmin GPS Watch 872,Garmin,Smartwatch,32751,3.9,7654
-108,Titan Vintage Series 764,Titan,Analog,5031,4.4,7962
-109,Titan Classic Dial 992,Titan,Analog,7344,4.6,6574
-110,Timex LED Display 658,Timex,Digital,7050,4.5,5034
-111,Maxima Fashion Watch 429,Maxima,Fashion,11716,3.8,7448
-112,HMT Classic Dial 204,HMT,Analog,3976,4.6,5655
-113,Apple Health Monitor 861,Apple,Smartwatch,36889,4.7,182
-114,Casio Dress Watch 242,Casio,Luxury,19434,4.0,2702
-115,Casio Sports Watch 274,Casio,Sports,14508,4.1,1329
-116,Esprit Designer Watch 330,Esprit,Fashion,9322,4.2,3598
-117,Fossil Chronograph 609,Fossil,Luxury,16963,4.7,6981
-118,Fitbit GPS Watch 542,Fitbit,Smartwatch,29436,4.0,2904
-119,Casio Calculator Watch 699,Casio,Digital,7019,4.5,7799
-120,Fitbit Smart Watch 91,Fitbit,Smartwatch,29854,3.8,1255
-121,G-Shock Sports Watch 674,G-Shock,Sports,3318,4.6,3897
-122,Apple Fitness Tracker 154,Apple,Smartwatch,5879,4.0,7690
-123,Esprit Designer Watch 367,Esprit,Fashion,8760,4.7,9313
-124,Esprit Trendy Edition 994,Esprit,Fashion,2869,4.3,2970
-125,Noise Fitness Tracker 739,Noise,Smartwatch,19984,4.1,3112
-126,Timex Classic Dial 166,Timex,Analog,10886,4.0,5908
-127,HMT Classic Dial 18,HMT,Analog,9987,4.1,5099
-128,Sonata Fashion Watch 613,Sonata,Fashion,7936,4.7,8213
-129,Sonata Calculator Watch 490,Sonata,Digital,6876,3.9,5249
-130,Boat Fitness Tracker 985,Boat,Smartwatch,6177,4.3,3521
-131,Titan Classic Dial 646,Titan,Analog,11692,3.9,8647
-132,Fastrack Fitness Tracker 264,Fastrack,Sports,6392,4.5,5282
-133,Casio Vintage Series 488,Casio,Analog,4423,4.3,2096
-134,Fastrack Chronograph 442,Fastrack,Luxury,24419,4.5,5150
-135,Samsung Smart Watch 329,Samsung,Smartwatch,16516,3.9,9042
-136,HMT Classic Dial 175,HMT,Analog,16793,4.0,7913
-137,Timex Fitness Tracker 70,Timex,Sports,3269,4.1,692
-138,Titan Analog Watch 717,Titan,Analog,14021,4.7,4633
-139,Timex Vintage Series 951,Timex,Analog,20813,4.1,7228
-140,Esprit Fashion Watch 331,Esprit,Fashion,8969,4.5,579
-141,Casio Digital Watch 150,Casio,Sports,9677,4.1,2963
-142,Fitbit GPS Watch 781,Fitbit,Smartwatch,25407,4.0,429
-143,Casio Calculator Watch 656,Casio,Digital,3259,4.5,667
-144,Titan Automatic 329,Titan,Luxury,15055,4.1,2859
-145,Fitbit Fitness Tracker 912,Fitbit,Smartwatch,36786,4.7,5622
-146,Maxima Trendy Edition 909,Maxima,Fashion,8070,3.9,9431
-147,Esprit Trendy Edition 380,Esprit,Fashion,8294,4.2,3745
-148,Casio LED Display 459,Casio,Digital,5344,3.9,9850
-149,Timex Calculator Watch 778,Timex,Digital,5454,4.0,3269
-150,Casio Quartz 893,Casio,Luxury,14306,4.0,2577
-151,Titan Dress Watch 384,Titan,Luxury,15849,4.3,848
-152,Casio Digital Watch 382,Casio,Digital,1631,4.2,4129
-153,Fitbit Fitness Tracker 850,Fitbit,Smartwatch,40005,4.1,6973
-154,Fastrack Calculator Watch 42,Fastrack,Digital,5479,4.1,4777
-155,Timex Vintage Series 243,Timex,Analog,9724,4.6,3333
-156,Fastrack Digital Watch 301,Fastrack,Digital,7207,4.0,4620
-157,Casio Fitness Tracker 810,Casio,Sports,13141,4.3,969
-158,Titan Quartz 401,Titan,Luxury,21332,4.0,2421
-159,Samsung Fitness Tracker 545,Samsung,Smartwatch,15490,4.5,6765
-160,Swiss Military Trendy Edition 4,Swiss Military,Fashion,2824,4.7,2843
-161,Apple GPS Watch 904,Apple,Smartwatch,14993,4.7,7904
-162,Casio Calculator Watch 588,Casio,Digital,6977,4.0,6084
-163,Titan Digital Watch 254,Titan,Sports,3091,4.0,1833
-164,Fitbit Health Monitor 559,Fitbit,Smartwatch,38038,4.7,1832
-165,Timex Chronograph 4,Timex,Luxury,4084,3.9,878
-166,Samsung Health Monitor 964,Samsung,Smartwatch,11798,4.0,2987
-167,Titan Sports Watch 292,Titan,Sports,12047,3.9,5375
-168,Maxima Fashion Watch 281,Maxima,Fashion,2717,4.7,1904
-169,Boat GPS Watch 947,Boat,Smartwatch,38863,4.7,3087
-170,Casio Quartz 346,Casio,Luxury,16569,4.5,6741
-171,Swiss Military Fashion Watch 881,Swiss Military,Fashion,8688,4.0,9501
-172,Titan Analog Watch 919,Titan,Analog,20147,4.1,6899
-173,Casio Calculator Watch 614,Casio,Digital,1437,3.9,3117
-174,Fitbit Smart Watch 920,Fitbit,Smartwatch,42133,4.5,5589
-175,Fitbit Fitness Tracker 949,Fitbit,Smartwatch,43289,4.6,8591
-176,Timex Vintage Series 790,Timex,Analog,18916,4.5,5310
-177,Boat GPS Watch 597,Boat,Smartwatch,30878,4.8,3721
-178,Timex Fitness Tracker 722,Timex,Sports,1648,4.2,6989
-179,Timex Dress Watch 479,Timex,Luxury,28462,4.0,5197
-180,Fastrack Chronograph 801,Fastrack,Luxury,20697,4.0,9974
-181,Casio Chronograph 425,Casio,Luxury,18546,4.4,3465
-182,Fossil Quartz 313,Fossil,Luxury,8974,4.2,8655
-183,Casio Calculator Watch 345,Casio,Digital,2356,4.4,6867
-184,Swiss Military Designer Watch 565,Swiss Military,Fashion,10404,4.7,1123
-185,Timex Digital Watch 551,Timex,Digital,5556,4.1,6937
-186,Casio Classic Dial 780,Casio,Analog,9940,4.4,4165
-187,G-Shock Sports Watch 173,G-Shock,Sports,832,4.4,6216
-188,Timex Classic Dial 716,Timex,Analog,8419,4.8,449
-189,Swiss Military Designer Watch 36,Swiss Military,Fashion,7213,4.8,1424
-190,Maxima Designer Watch 274,Maxima,Fashion,11341,4.4,457
-191,Sonata Fashion Watch 906,Sonata,Fashion,6861,4.5,7134
-192,Casio Digital Watch 945,Casio,Digital,5293,4.4,6087
-193,Fastrack Quartz 996,Fastrack,Luxury,30747,4.0,9338
-194,Timex Calculator Watch 382,Timex,Digital,4554,4.6,9574
-195,Boat Health Monitor 83,Boat,Smartwatch,37986,4.5,413
-196,Timex Digital Watch 696,Timex,Sports,4830,4.3,7474
-197,Casio Analog Watch 655,Casio,Analog,24563,4.7,6385
-198,Apple Smart Watch 185,Apple,Smartwatch,1531,4.5,5063
-199,Titan Digital Watch 35,Titan,Sports,7689,4.4,1919
-200,Sonata Trendy Edition 697,Sonata,Fashion,10871,4.7,5577
+1,Sonata Digital Watch 328,Sonata,Digital,4899,4.6,2765
+2,Casio Fitness Tracker 975,Casio,Sports,1351,4.5,4464
+3,Timex Analog Watch 636,Timex,Analog,14319,4.2,3312
+4,Titan Digital Watch 276,Titan,Sports,4226,3.9,6921
+5,Casio Digital Watch 926,Casio,Digital,4887,4.6,4026
+6,Apple Health Monitor 292,Apple,Smartwatch,17169,4.3,7049
+7,Sonata Calculator Watch 880,Sonata,Digital,2996,4.2,7530
+8,Garmin Smart Watch 433,Garmin,Smartwatch,10404,4.5,9264
+9,Timex Fitness Tracker 530,Timex,Sports,2687,4.3,5775
+10,Timex Vintage Series 967,Timex,Analog,19423,4.0,1511
+11,Casio Dress Watch 725,Casio,Luxury,34203,4.2,6401
+12,G-Shock Sports Watch 690,G-Shock,Sports,11485,4.6,4075
+13,Timex Quartz 347,Timex,Luxury,2325,4.4,7747
+14,Fossil Quartz 341,Fossil,Luxury,34047,4.4,5557
+15,Samsung Health Monitor 880,Samsung,Smartwatch,37518,4.4,3760
+16,Casio Fitness Tracker 603,Casio,Sports,8245,4.5,2493
+17,Casio Sports Watch 706,Casio,Sports,5078,4.4,6026
+18,Fastrack Digital Watch 28,Fastrack,Sports,13299,4.2,4138
+19,Sonata Trendy Edition 253,Sonata,Fashion,11503,4.3,5986
+20,Casio Calculator Watch 268,Casio,Digital,4521,4.6,4813
+21,Fastrack Calculator Watch 414,Fastrack,Digital,7478,4.7,7049
+22,Casio Automatic 496,Casio,Luxury,9516,4.2,8098
+23,Maxima Fashion Watch 168,Maxima,Fashion,6729,4.4,1730
+24,Maxima Designer Watch 42,Maxima,Fashion,6792,4.1,1587
+25,Garmin Health Monitor 793,Garmin,Smartwatch,13207,4.1,4133
+26,Casio Classic Dial 565,Casio,Analog,5154,4.4,6979
+27,Titan Chronograph 831,Titan,Luxury,8096,4.3,8118
+28,Timex Vintage Series 619,Timex,Analog,24847,4.2,3658
+29,Fitbit Smart Watch 227,Fitbit,Smartwatch,44156,4.6,5942
+30,Fastrack Calculator Watch 624,Fastrack,Digital,7845,3.9,3841
+31,G-Shock Sports Watch 822,G-Shock,Sports,10364,4.7,7507
+32,Apple Health Monitor 274,Apple,Smartwatch,25343,4.6,7169
+33,Noise GPS Watch 232,Noise,Smartwatch,38023,4.2,7067
+34,Noise Smart Watch 571,Noise,Smartwatch,19998,4.1,1244
+35,Titan Automatic 591,Titan,Luxury,24544,4.5,3258
+36,Timex Fitness Tracker 796,Timex,Sports,1486,3.9,5939
+37,Boat Health Monitor 333,Boat,Smartwatch,37859,3.9,7764
+38,Maxima Trendy Edition 613,Maxima,Fashion,7460,4.3,1046
+39,Fastrack Sports Watch 276,Fastrack,Sports,3661,4.6,1384
+40,Fastrack Digital Watch 336,Fastrack,Digital,4501,4.6,3810
+41,Timex Calculator Watch 991,Timex,Digital,7488,4.5,9816
+42,Swiss Military Trendy Edition 22,Swiss Military,Fashion,6772,4.1,6411
+43,Maxima Designer Watch 19,Maxima,Fashion,8168,4.7,1074
+44,Titan Chronograph 45,Titan,Luxury,12779,3.9,1375
+45,Swiss Military Fashion Watch 221,Swiss Military,Fashion,9246,3.9,2366
+46,Titan Chronograph 136,Titan,Luxury,26934,4.1,6910
+47,Sonata Trendy Edition 700,Sonata,Fashion,4173,4.3,4455
+48,Esprit Trendy Edition 546,Esprit,Fashion,4758,4.1,2948
+49,Sonata Designer Watch 559,Sonata,Fashion,7844,4.1,4625
+50,Samsung GPS Watch 87,Samsung,Smartwatch,26100,4.4,4849
+51,Titan Classic Dial 615,Titan,Analog,5133,4.2,4603
+52,Casio Chronograph 553,Casio,Luxury,7134,4.5,962
+53,Timex Sports Watch 589,Timex,Sports,3805,4.3,2767
+54,Casio Quartz 794,Casio,Luxury,7485,4.0,2531
+55,Apple Health Monitor 907,Apple,Smartwatch,2653,4.2,8637
+56,G-Shock Sports Watch 390,G-Shock,Sports,7196,4.5,1134
+57,Timex Vintage Series 508,Timex,Analog,12756,4.4,6761
+58,Apple GPS Watch 584,Apple,Smartwatch,24642,4.4,5726
+59,Fossil Automatic 972,Fossil,Luxury,10243,4.6,9939
+60,Esprit Trendy Edition 172,Esprit,Fashion,10557,4.5,523
+61,Esprit Designer Watch 539,Esprit,Fashion,5831,4.1,1724
+62,Casio Sports Watch 388,Casio,Sports,5608,4.1,6418
+63,Boat GPS Watch 357,Boat,Smartwatch,6574,4.4,654
+64,Fossil Quartz 223,Fossil,Luxury,17509,4.4,6487
+65,Fitbit Smart Watch 848,Fitbit,Smartwatch,24775,4.3,4880
+66,Fastrack Automatic 427,Fastrack,Luxury,26519,4.2,9048
+67,Timex Sports Watch 591,Timex,Sports,12597,4.7,4233
+68,HMT Classic Dial 210,HMT,Analog,23764,4.2,4933
+69,G-Shock Sports Watch 311,G-Shock,Sports,10412,4.6,7351
+70,Fastrack Chronograph 527,Fastrack,Luxury,33002,4.0,2016
+71,Fastrack Dress Watch 880,Fastrack,Luxury,14353,4.1,887
+72,Sonata Fashion Watch 466,Sonata,Fashion,11062,3.8,2151
+73,Titan Fitness Tracker 669,Titan,Sports,3808,4.2,2716
+74,Sonata Fashion Watch 869,Sonata,Fashion,8540,4.0,8556
+75,Timex Quartz 723,Timex,Luxury,15003,3.9,6677
+76,Esprit Designer Watch 212,Esprit,Fashion,11279,4.5,8256
+77,Timex Fitness Tracker 997,Timex,Sports,3534,4.0,6202
+78,Fastrack Chronograph 143,Fastrack,Luxury,13787,4.0,8721
+79,Swiss Military Designer Watch 727,Swiss Military,Fashion,6334,4.1,349
+80,Apple GPS Watch 806,Apple,Smartwatch,38119,4.6,6265
+81,Casio Fitness Tracker 131,Casio,Sports,4962,4.6,9872
+82,Esprit Designer Watch 152,Esprit,Fashion,1611,4.7,8836
+83,Timex Digital Watch 777,Timex,Sports,7251,4.3,3009
+84,Fossil Chronograph 892,Fossil,Luxury,14836,3.9,7990
+85,Titan Vintage Series 201,Titan,Analog,11349,4.6,3628
+86,Sonata Calculator Watch 106,Sonata,Digital,4328,4.0,9069
+87,Timex Automatic 25,Timex,Luxury,10352,4.2,5381
+88,Casio LED Display 26,Casio,Digital,2833,4.2,4171
+89,Timex Dress Watch 786,Timex,Luxury,26831,4.5,9526
+90,Swiss Military Fashion Watch 375,Swiss Military,Fashion,6773,4.4,1136
+91,Timex Digital Watch 818,Timex,Sports,3971,4.6,9344
+92,Casio Classic Dial 357,Casio,Analog,2618,4.3,1265
+93,Fossil Chronograph 945,Fossil,Luxury,10396,4.3,1611
+94,Titan Fitness Tracker 403,Titan,Sports,7876,4.0,1457
+95,Sonata Designer Watch 143,Sonata,Fashion,9694,3.9,945
+96,G-Shock Sports Watch 836,G-Shock,Sports,4048,4.6,3703
+97,HMT Classic Dial 412,HMT,Analog,8059,4.0,467
+98,Samsung Smart Watch 270,Samsung,Smartwatch,5909,4.6,6041
+99,Sonata LED Display 921,Sonata,Digital,2666,4.3,2527
+100,G-Shock Sports Watch 513,G-Shock,Sports,14012,4.7,4879
+101,Titan Automatic 374,Titan,Luxury,3412,4.4,4357
+102,Timex Analog Watch 427,Timex,Analog,19009,4.5,9556
+103,Apple Health Monitor 609,Apple,Smartwatch,23962,4.0,4509
+104,Fastrack Digital Watch 565,Fastrack,Digital,4938,4.2,2036
+105,Casio Automatic 235,Casio,Luxury,4387,3.8,1115
+106,Casio Analog Watch 596,Casio,Analog,18402,4.2,9616
+107,Timex Analog Watch 825,Timex,Analog,24333,3.8,7295
+108,Casio Vintage Series 230,Casio,Analog,1763,4.2,253
+109,Fossil Quartz 256,Fossil,Luxury,8010,4.2,9770
+110,Titan Digital Watch 514,Titan,Sports,14499,3.9,7038
+111,Timex Fitness Tracker 29,Timex,Sports,7906,4.1,9365
+112,Sonata Trendy Edition 560,Sonata,Fashion,9369,4.1,8211
+113,Garmin GPS Watch 597,Garmin,Smartwatch,25784,4.4,1922
+114,Timex Digital Watch 863,Timex,Digital,6978,4.7,9938
+115,Fitbit Health Monitor 6,Fitbit,Smartwatch,3180,4.7,3352
+116,Timex Calculator Watch 713,Timex,Digital,2153,4.2,9579
+117,Casio Digital Watch 655,Casio,Digital,1084,4.6,128
+118,Casio Calculator Watch 654,Casio,Digital,1528,4.3,5974
+119,Swiss Military Fashion Watch 551,Swiss Military,Fashion,8494,4.8,9604
+120,Timex Vintage Series 292,Timex,Analog,8116,4.4,4678
+121,Timex Digital Watch 429,Timex,Digital,1077,4.1,4001
+122,Casio Analog Watch 549,Casio,Analog,21567,4.5,5526
+123,Titan Quartz 751,Titan,Luxury,33591,4.0,3644
+124,Casio LED Display 94,Casio,Digital,5508,4.6,1930
+125,Garmin GPS Watch 667,Garmin,Smartwatch,43976,3.9,5659
+126,Fastrack Digital Watch 617,Fastrack,Sports,5122,4.2,8430
+127,Boat Fitness Tracker 481,Boat,Smartwatch,21016,4.6,2294
+128,Timex Quartz 586,Timex,Luxury,13602,3.9,9158
+129,Sonata Trendy Edition 751,Sonata,Fashion,5091,4.8,6374
+130,Samsung Smart Watch 684,Samsung,Smartwatch,5685,4.8,8755
+131,Fastrack Digital Watch 127,Fastrack,Sports,805,4.1,8940
+132,G-Shock Digital Watch 264,G-Shock,Sports,1229,4.5,3861
+133,Esprit Designer Watch 504,Esprit,Fashion,3846,4.5,6139
+134,Fastrack Digital Watch 636,Fastrack,Sports,13637,4.0,7651
+135,HMT Classic Dial 155,HMT,Analog,23430,4.1,3406
+136,Fossil Chronograph 791,Fossil,Luxury,26812,3.9,5388
+137,Timex Fitness Tracker 793,Timex,Sports,13535,4.6,9528
+138,Maxima Fashion Watch 187,Maxima,Fashion,2673,4.0,9536
+139,Maxima Designer Watch 142,Maxima,Fashion,4228,4.6,7747
+140,Noise GPS Watch 297,Noise,Smartwatch,38266,4.0,7266
+141,Titan Quartz 721,Titan,Luxury,12829,3.9,1335
+142,Titan Vintage Series 601,Titan,Analog,4119,4.7,4054
+143,Fastrack Automatic 418,Fastrack,Luxury,19805,4.5,9078
+144,Fitbit Fitness Tracker 716,Fitbit,Smartwatch,44289,3.8,6443
+145,Titan Sports Watch 957,Titan,Sports,13866,4.3,7740
+146,Timex Dress Watch 105,Timex,Luxury,25626,4.4,333
+147,Timex Chronograph 940,Timex,Luxury,12079,4.8,7682
+148,Sonata Fashion Watch 987,Sonata,Fashion,7979,4.5,4334
+149,Titan Digital Watch 704,Titan,Sports,13026,3.9,5674
+150,Noise GPS Watch 796,Noise,Smartwatch,36620,4.0,7288
+151,Swiss Military Designer Watch 990,Swiss Military,Fashion,5180,4.2,6157
+152,Casio Sports Watch 488,Casio,Sports,14269,4.1,682
+153,Timex Fitness Tracker 980,Timex,Sports,13806,4.0,342
+154,Fitbit Fitness Tracker 147,Fitbit,Smartwatch,19993,4.5,5903
+155,Timex Automatic 393,Timex,Luxury,24699,4.2,1758
+156,Timex Classic Dial 554,Timex,Analog,18669,4.0,7500
+157,Titan Classic Dial 579,Titan,Analog,8686,4.5,8755
+158,Timex Vintage Series 666,Timex,Analog,18607,3.8,5503
+159,Sonata LED Display 683,Sonata,Digital,5859,3.9,247
+160,Timex Digital Watch 319,Timex,Sports,4486,4.0,9018
+161,Casio Calculator Watch 185,Casio,Digital,1504,4.5,5832
+162,Casio Digital Watch 439,Casio,Digital,1467,4.0,2618
+163,Casio Analog Watch 570,Casio,Analog,11959,4.1,7274
+164,Casio Analog Watch 547,Casio,Analog,5882,4.5,8483
+165,Swiss Military Trendy Edition 878,Swiss Military,Fashion,1486,3.9,200
+166,Casio Quartz 847,Casio,Luxury,8182,4.5,6590
+167,Swiss Military Fashion Watch 877,Swiss Military,Fashion,2083,3.8,1880
+168,Timex Analog Watch 918,Timex,Analog,8635,4.6,7496
+169,Esprit Trendy Edition 695,Esprit,Fashion,10313,3.9,1997
+170,Swiss Military Designer Watch 422,Swiss Military,Fashion,11921,4.4,1080
+171,Boat Smart Watch 669,Boat,Smartwatch,25094,4.6,9928
+172,Noise GPS Watch 95,Noise,Smartwatch,31886,4.1,9215
+173,Casio LED Display 658,Casio,Digital,7860,4.0,2947
+174,Casio Vintage Series 593,Casio,Analog,11629,4.0,3338
+175,Fastrack Automatic 621,Fastrack,Luxury,11497,4.7,9035
+176,Titan Fitness Tracker 735,Titan,Sports,1875,4.3,5962
+177,Samsung Health Monitor 337,Samsung,Smartwatch,2081,4.3,2498
+178,Maxima Trendy Edition 410,Maxima,Fashion,9773,4.0,3240
+179,Titan Fitness Tracker 635,Titan,Sports,6535,4.2,2630
+180,Samsung Health Monitor 498,Samsung,Smartwatch,34786,4.7,5775
+181,Casio Vintage Series 901,Casio,Analog,17501,4.2,512
+182,Fastrack LED Display 68,Fastrack,Digital,5395,4.0,3401
+183,G-Shock Fitness Tracker 595,G-Shock,Sports,12037,4.6,5734
+184,Sonata LED Display 859,Sonata,Digital,5755,4.0,2774
+185,Garmin Smart Watch 971,Garmin,Smartwatch,34366,4.6,2925
+186,Titan Chronograph 600,Titan,Luxury,16876,4.7,644
+187,Apple Health Monitor 65,Apple,Smartwatch,16150,4.1,4893
+188,Titan Analog Watch 515,Titan,Analog,11268,4.4,488
+189,Casio Automatic 266,Casio,Luxury,6889,4.0,3424
+190,Fastrack Digital Watch 895,Fastrack,Digital,7783,4.7,7959
+191,Boat Health Monitor 566,Boat,Smartwatch,39338,4.1,7083
+192,Casio Dress Watch 458,Casio,Luxury,3860,4.2,5808
+193,Timex Dress Watch 143,Timex,Luxury,13460,4.3,4689
+194,Casio Vintage Series 965,Casio,Analog,17459,4.4,6167
+195,Fastrack Digital Watch 406,Fastrack,Digital,4245,4.5,7096
+196,Timex Vintage Series 900,Timex,Analog,21885,4.7,8921
+197,Titan Analog Watch 553,Titan,Analog,20303,4.2,8868
+198,Maxima Fashion Watch 414,Maxima,Fashion,11388,4.6,3685
+199,Casio Automatic 793,Casio,Luxury,8380,4.4,3440
+200,Titan Digital Watch 140,Titan,Sports,1384,4.4,5173
