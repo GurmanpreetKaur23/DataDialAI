@@ -1,5 +1,3 @@
-<img width="1601" height="894" alt="image" src="https://github.com/user-attachments/assets/cb62fc69-3379-4294-bbf1-9f8caa606fa4" /># ProductInsightBot - Watch Analysis AI Agent
-
 ProductInsightBot is an intelligent AI agent designed to analyze and provide insights about watch products. 
 
 ## **Features**
