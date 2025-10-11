@@ -1,8 +1,8 @@
-# ProductInsightBot - Watch Analysis AI Agent
+<img width="1601" height="894" alt="image" src="https://github.com/user-attachments/assets/cb62fc69-3379-4294-bbf1-9f8caa606fa4" /># ProductInsightBot - Watch Analysis AI Agent
 
-ProductInsightBot is an intelligent AI agent designed to analyze and provide insights about watch products. This project was developed as part of an AI Engineer Intern assignment, demonstrating skills in web scraping, data analysis, and natural language processing.
+ProductInsightBot is an intelligent AI agent designed to analyze and provide insights about watch products. 
 
-## Features
+## **Features**
 - **Web Scraping**: Automated data collection from e-commerce websites
 - **Natural Language Processing**: Understands conversational queries about watches
 - **Price Analysis**: Compares prices, finds expensive/affordable watches
@@ -10,7 +10,7 @@ ProductInsightBot is an intelligent AI agent designed to analyze and provide ins
 - **Brand Comparison**: Analyzes and compares different watch brands
 - **Category Insights**: Provides insights across Smartwatch, Luxury, Sports, Fashion, Digital, and Analog categories
 
-## Technologies Used
+## **Technologies Used**
 - **Python 3.x** - Core programming language
 - **Pandas** - Data manipulation and analysis
 - **BeautifulSoup4** - Web scraping and HTML parsing
@@ -18,100 +18,60 @@ ProductInsightBot is an intelligent AI agent designed to analyze and provide ins
 - **SQLite** - Database storage
 - **Regular Expressions** - Natural language pattern matching
 
-## Project Structure
-ProductInsightBot/
-├── data_collector.py # Web scraping and data generation
-├── product_insight_bot.py # Main AI agent with NLP capabilities
-├── products.csv # Generated product data (CSV format)
-├── products.db # Database file (SQLite format)
-├── requirements.txt # Project dependencies
-└── README.md # Project documentation
+## **Project Structure**
+<img width="683" height="252" alt="image" src="https://github.com/user-attachments/assets/a95de79b-6613-4eac-84d1-3fa020564fc9" />
 
+## **Installation & Setup**
 
-## Installation & Setup
-
-### Prerequisites
+### _Prerequisites_
 - Python 3.7 or higher
 - pip (Python package manager)
 
-### Step 1: Clone the Repository
+### _Step 1: Clone the Repository_
 ```bash
 git clone https://github.com/GurmanpreetKaur23/ProductInsightBot.git
 cd ProductInsightBot
 ```
-### Step 2: Install Dependencies
+### _Step 2: Install Dependencies_
 ``` bash
 pip install -r requirements.txt
 ```
-### Step 3: Generate Product Data
+### _Step 3: Generate Product Data_
 ``` bash
 python data_collector.py
 ```
-### Step 4: Run the AI Agent
+<img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/5190813a-dab7-4405-ae1d-17aaed25981a" />
+
+### _Step 4: Run the AI Agent_
 ``` bash
 python product_insight_bot.py
 ```
+<img width="1597" height="467" alt="image" src="https://github.com/user-attachments/assets/acf8f673-0d88-4fa1-98ae-de6d91ee3a8e" />
 
-## Usage Examples
-Once the bot is running, you can ask questions like:
+## **Usage Examples**
+<img width="1601" height="894" alt="image" src="https://github.com/user-attachments/assets/7877c938-a221-4dc9-8e29-1c630a2caff4" />
 
-### Price Queries
-**"Which watch is the most expensive?"**
+## **Data Collection Approach**
 
-**"Show me watches under ₹10000"**
+### _Web Scraping Strategy_
+**-> Attempts to scrape real watch data from Amazon India**
 
-**"What is the average price of smartwatches?"**
+**-> Implements respectful scraping with delays between requests**
 
-### Rating Queries
-**"Show me watches with rating above 4.5"**
+**-> Uses proper headers to mimic browser behavior**
 
-**"Which Titan watches have the best ratings?"**
+**-> Handles errors gracefully with fallback mechanisms**
 
-**"Highest rated sports watches"**
+### _Fallback Data Generation_
+**-> Generates realistic sample data if scraping fails**
 
-### Brand Analysis
-**"Compare Titan and Casio prices"**
+**-> Includes 200+ watch products across 6 categories**
 
-**"Samsung watch analysis"**
+**-> Realistic pricing, ratings, and review counts**
 
-**"Apple vs Noise smartwatches"**
+**-> Covers popular brands like Titan, Casio, Apple, Samsung, etc.**
 
-### Category Insights
-**"Smartwatch average price"**
-
-**"Luxury watches under ₹20000"**
-
-**"Sports watches with most reviews"**
-
-### General Queries
-**"Show me all categories"**
-
-**"Which watch has the most reviews?"**
-
-**"Price range of all watches"**
-
-## Data Collection Approach
-
-### Web Scraping Strategy
-**Attempts to scrape real watch data from Amazon India**
-
-**Implements respectful scraping with delays between requests**
-
-**Uses proper headers to mimic browser behavior**
-
-**Handles errors gracefully with fallback mechanisms**
-
-### Fallback Data Generation
-**Generates realistic sample data if scraping fails**
-
-**Includes 200+ watch products across 6 categories**
-
-**Realistic pricing, ratings, and review counts**
-
-**Covers popular brands like Titan, Casio, Apple, Samsung, etc.**
-
-### Categories Covered
-
+### **Categories Covered**
 Category	Description	Popular Brands
 Smartwatch	Fitness trackers, smart features	Apple, Samsung, Noise, Boat
 Luxury	Premium, high-end watches	Titan, Fossil, Casio, Timex
@@ -120,34 +80,34 @@ Fashion	Style-focused, designer watches	Sonata, Maxima, Esprit
 Digital	LED displays, digital features	Casio, Timex, Fastrack
 Analog	Traditional watch designs	Titan, HMT, Timex
 
-### Technical Implementation
-## Data Collection (data_collector.py)
-**Web scraping with error handling**
+### **Technical Implementation**
+## _Data Collection_ _**(data_collector.py)**_
+**-> Web scraping with error handling**
 
-**Automatic category classification**
+**-> Automatic category classification**
 
-**Brand extraction from product names**
+**-> Brand extraction from product names**
 
-**CSV and SQLite database storage**
+**-> CSV and SQLite database storage**
 
-## AI Agent (product_insight_bot.py)
-**Pattern-based natural language understanding**
+## _AI Agent_ _**(product_insight_bot.py)**_
+**-> Pattern-based natural language understanding**
 
-**Category and brand recognition**
+**-> Category and brand recognition**
 
-**Statistical analysis and filtering**
+**-> Statistical analysis and filtering**
 
-**User-friendly conversational interface**
+**-> User-friendly conversational interface**
 
-### Troubleshooting
-## Common Issues
+### **Troubleshooting**
+## _Common Issues_
 **Web scraping fails:** The system automatically uses generated sample data
 
 **Module not found:** Run pip install -r requirements.txt
 
 **Database errors:** Delete products.db and run data_collector.py again
 
-## Data Sources
+##_Data Sources_
 **Primary:** Amazon India (web scraping)
 
 **Fallback:** Generated sample data with realistic watch information
