@@ -62,6 +62,18 @@ class ProductInsightBotUI {
         this.scrollToBottom();
     }
 
+    formatBotResponse(content) {
+        // Convert markdown-like formatting to HTML
+        return content
+            .replace(/\*\*(.*?)\*\*/g, '<strong style="color: var(--primary)">$1</strong>')
+            .replace(/\*(.*?)\*/g, '<em>$1</em>')
+            .replace(/```(.*?)```/gs, '<div class="code-block">$1</div>')
+            .replace(/\n/g, '<br>')
+            .replace(/💰/g, '<span style="color: gold">💰</span>')
+            .replace(/⭐/g, '<span style="color: var(--warning)">⭐</span>')
+            .replace(/📊/g, '<span style="color: var(--primary)">📊</span>')
+            .replace(/🏷️/g, '<span style="color: var(--secondary)">🏷️</span>');
+    }
 
     generateMessageActions(content) {
         if (content.includes('Titan') || content.includes('Casio') || content.includes('brand')) {
